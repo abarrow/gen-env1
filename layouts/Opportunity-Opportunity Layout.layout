@@ -21,7 +21,15 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Probability</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>CampaignId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Amount</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -34,12 +42,8 @@
                 <field>StageName</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Probability</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Amount</field>
+                <behavior>Readonly</behavior>
+                <field>ExpectedRevenue</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
